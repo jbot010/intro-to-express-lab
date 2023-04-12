@@ -1,0 +1,12 @@
+<body>
+  <h1>Students</h1>
+  <ul>
+    <% students.forEach(students => { %>
+      <li>
+        <%= students.text %> 
+        - 
+        <%= students.here ? 'here' : 'not here' %>
+      </li>
+    <% }) %>
+  </ul>
+</body>
